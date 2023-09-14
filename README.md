@@ -1,7 +1,5 @@
 # ccpd
-yolo v5
-
-项目源代码来自：
+rpnet车牌检测，项目源代码来自：
 
 https://github.com/detectRecog/CCPD
 

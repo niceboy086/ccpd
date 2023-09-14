@@ -1,2 +1,10 @@
 # ccpd
 yolo v5
+
+源代码来自：
+
+https://github.com/detectRecog/CCPD
+
+https://github.com/872699467/CCPD_CNN
+
+只是开发环境不同，调试时稍微有修改。

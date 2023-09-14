@@ -1,0 +1,13 @@
+
+python demo.py -i demo/ -m fh02/fh02.pth4
+
+python wR2.py -i ..\..\datasets\CCPD2019\ -b 4 -n 5   -r wR2.pth
+
+python rpnet.py -i ..\..\datasets\CCPD2019\ -b 4 -n 5 -se 0 -f fh02\ -t ..\..\datasets\CCPD2019\  -r fh02.pth
+
+python rpnetEval.py -m fh02/fh02.pth4 -i ..\..\datasets\CCPD2019\ -s evalstore/
+python rpnetEval.py -m fh02.pth -i ..\..\datasets\CCPD2019\ -s evalstore/
+
+python fnchk.py -i ..\..\datasets\CCPD2019\
+python fnchk.py -i ../../datasets/CCPD2019/
+
